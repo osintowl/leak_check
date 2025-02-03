@@ -17,7 +17,7 @@ Add `leak_check` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:leak_check, "~> 0.1.0"}
+    {:leak_check, "~> 0.2.0"}
   ]
 end
 
