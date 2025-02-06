@@ -1,14 +1,14 @@
 defmodule LeakCheck.MixProject do
   use Mix.Project
 
-  @version "0.2.O"
+  @version "0.3.O"
   
-  @source_url "https://github.com/nix2intel/leak_check"
+  @source_url "https://github.com/osintowl/leak_check"
 
   def project do
     [
       app: :leak_check,
-      version: "0.2.0",
+      version: "0.3.0",
       elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
