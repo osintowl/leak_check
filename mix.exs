@@ -8,7 +8,7 @@ defmodule LeakCheck.MixProject do
   def project do
     [
       app: :leak_check,
-      version: "0.3.0",
+      version: "0.3.1",
       elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -30,7 +30,7 @@ defmodule LeakCheck.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-  	{:req, "~> 0.5.8"},
+  	{:req, "~> 0.5 or ~> 0.6 or ~> 0.7"},
   	{:jason, "~> 1.4"},
   	{:ex_doc, "~> 0.35.1",  only: :dev, runtime: false}
     ]
